@@ -12,3 +12,8 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+.clj-kondo/
+.lsp/
+.m2/
+node_modules/
+.shadow-cljs/
