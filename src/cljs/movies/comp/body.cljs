@@ -1,6 +1,7 @@
 (ns movies.comp.body
   (:require
-   [movies.state :as state]))
+   [movies.state :as state]
+   [reagent.core :as r]))
 
 (defn movie
   "Display a movie, given a set of data."
@@ -15,10 +16,10 @@
       :alt title}]]])
 
 (defn movies
-  []
+  [_]
   (fn []
     [:div.row.bg-main.bg-opacity-10.pt-3.movies
      [:main.container
       [:div.row.row-cols-1.row-cols-md-2.row-cols-xl-3.g-4
-       (for [{:keys [id title director country year img]} (vals @state/movies)]
+       (for [{:keys [id title director country year img]} (sort-by :year (vals @state/movies))]
          (movie id title director country year img))]]]))

@@ -2,13 +2,15 @@
   (:require
    [goog.dom :as gdom]
    [reagent.dom :as rdom]
+   [reagent.core :as r]
    [movies.comp.body :refer [movies]]
    [movies.comp.header :refer [navigation]]))
 
 (defn app []
-  [:div.bg-light
-   [navigation]
-   [movies]])
+  (let [mode (r/atom {:active "year"})]
+    [:div.bg-light
+     (navigation mode)
+     [(movies mode)]]))
 
 (defn get-app-element []
   (gdom/getElement "app"))
