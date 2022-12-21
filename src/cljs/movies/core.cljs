@@ -2,10 +2,12 @@
   (:require
    [goog.dom :as gdom]
    [reagent.dom :as rdom]
-   [movies.view :refer [movies]]))
+   [movies.comp.body :refer [movies]]
+   [movies.comp.header :refer [navigation]]))
 
 (defn app []
-  [:div
+  [:div.bg-light
+   [navigation]
    [movies]])
 
 (defn get-app-element []
