@@ -11,12 +11,12 @@
               :movie-02 {:id :02
                          :title "Life in Occupied Palestine"
                          :director "Anna Baltzer"
-                         :country "USA"
+                         :country "Palestine"
                          :year "2008"
                          :img "https://imgs.search.brave.com/yjXpPgSuCAm-Nf8PB9ZfbP_B0hs5IceOoHpzGijmmMA/rs:fit:640:480:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZhLzRk/LzE2L2ZhNGQxNjQ3/MTZjZjQ5Y2JkZTAx/NDdmNzNhMmFmMDIw/LmpwZw"}
               :movie-03 {:id :03
                          :title "Nausicaä of the Valley of the Wind"
                          :director "Hayao Miyazaki"
-                         :country "USA"
+                         :country "Japan"
                          :year "1984"
                          :img "https://imgs.search.brave.com/BP-8VaULoW5RIyYBLq9vA7syNSGNPoBW1pT6X9S9eB8/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VFdNVkV4VnJqSGRJ/VjhvVnpaVTBnSGFE/NCZwaWQ9QXBp"}}))
