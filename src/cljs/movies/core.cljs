@@ -12,11 +12,10 @@
     [:div.bg-light
      [(navigation mode)]
      [(fn []
-        (if (= (:active @mode) "year")
-          (movies (sort-by :year (vals @state/movies)))
-          (if (= (:active @mode) "title")
-            (movies (sort-by :title (vals @state/movies)))
-            (movies (sort-by :country (vals @state/movies))))))]]))
+        (case
+         (:active @mode) "year" (movies (sort-by :year (vals @state/movies)))
+         "title" (movies (sort-by :title (vals @state/movies)))
+         "country" (movies (sort-by :country (vals @state/movies)))))]]))
 
 (defn get-app-element []
   (gdom/getElement "app"))

@@ -6,14 +6,15 @@
 (defn movie
   "Display a movie, given a set of data."
   [id title director country year image]
-  [:div.mt-1.mr-1 {:key (str "movie-" id)}
-   [:h1 (str title ", " year)]
-   [:div
-    [:h3 (str director ", " country)]]
-   [:div.shadow-sm.mb-1.bg-body.rounded.ratio.ratio-16x9
-    [:img.card-img-top.img-fluid.rounded.img-thumbnail
-     {:src image
-      :alt title}]]])
+  [:div.col.mb-1 {:key (str "movie-" id)}
+   [:div.card.shadow.h-100.text-white.bg-dark
+    [:h1.card-header.bg-light.text-black (str title ", " year)]
+    [:div.col
+     [:h3.card-header (str director ", " country)]]
+    [:div.shadow-sm.mb-1.bg-body.rounded.ratio.ratio-16x9
+     [:img.card-img-top.img-fluid.rounded.img-thumbnail
+      {:src image
+       :alt title}]]]])
 
 (defn movies
   [state]
