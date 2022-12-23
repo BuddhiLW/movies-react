@@ -1,4 +1,5 @@
 // Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Rubik&display=swap");
@@ -6,13 +7,16 @@
 $primary: #ff536a;
 $secondary: #53ffd1;
 $danger: #c0ff53;
+$main-title__bg_color: #eaeaea;
 
 // Font Variables
 // $roboto-slab: "Roboto Slab", serif;
 // $open-sans: "Open Sans", sans-serif;
 $header: "Rubik", sans-serif;
 $button: "Rubik", sans-serif;
+$main-title__font: "Neucha", cursive;
 $movie-title: "Darker Grotesque", sans-serif, medium;
+
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $h1-font-size: $font-size-base * 2.2;
 
@@ -35,6 +39,12 @@ h1.card-header {
   font-family: $movie-title;
   font-weight: 600;
   font-size: 2em;
+}
+
+div.main-title {
+  font-family: $main-title__font;
+  font-size: 4.3em;
+  background-color: $main-title__bg_color;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";

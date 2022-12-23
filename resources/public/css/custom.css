@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Rubik&display=swap");
@@ -25,6 +26,12 @@ h1.card-header, .card-header.h1 {
   font-family: "Darker Grotesque", sans-serif, medium;
   font-weight: 600;
   font-size: 2em;
+}
+
+div.main-title {
+  font-family: "Neucha", cursive;
+  font-size: 4.3em;
+  background-color: #eaeaea;
 }
 
 /*!
