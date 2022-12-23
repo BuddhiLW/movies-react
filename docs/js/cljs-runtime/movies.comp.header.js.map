@@ -1,0 +1,1 @@
+{"version":3,"sources":["movies/comp/header.cljs"],"mappings":";AAEA,4BAAA,5BAAMA;AAAN,AAAA,0FAAA,8DAAA,mFAAA,kGAAA","names":["movies.comp.header/header"],"sourcesContent":["(ns movies.comp.header)\n\n(defn header\n  []\n  [:div.mb-4\n   [:div.main-title.text-center \"Pedro's Favorite Movies\"]])\n"]}

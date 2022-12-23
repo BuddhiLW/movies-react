@@ -1,0 +1,6 @@
+goog.provide('movies.comp.footer');
+movies.comp.footer.footer = (function movies$comp$footer$footer(){
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.bg-dark.text-light.d-md-flex.justify-content-around.mt-3.align-items-center.p-2","div.bg-dark.text-light.d-md-flex.justify-content-around.mt-3.align-items-center.p-2",1066836279),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Made with love \u2764\uFE0F"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Github project: ",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),"https://github.com/BuddhiLW/movies-react"], null),"https://github.com/BuddhiLW/movies-react"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"BuddhiLW, 2022"], null)], null);
+});
+
+//# sourceMappingURL=movies.comp.footer.js.map
